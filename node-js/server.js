@@ -8,7 +8,7 @@ const socket = require('./socket');
 const db = require('./db');
 const router = require('./network/routes');
 
-db('mongodb+srv://luis29rod:pajaro18@cluster0.kb88eye.mongodb.net/?retryWrites=true&w=majority');
+//database credentials
 
 app.use(cors());
 
