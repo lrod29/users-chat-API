@@ -2,9 +2,7 @@ const db = require('mongoose');
 const Model = require('./model');
 
 db.Promise = global.Promise;
-db.connect('mongodb+srv://luis29rod:pajaro18@cluster0.kb88eye.mongodb.net/?retryWrites=true&w=majority', {
-    useNewUrlParser: true
-});
+//db credentials
 console.log('[db] conectada con exito');
 
 function addMessage(message){
